@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+
+.user_info {
+    width: 500px;
+    height: 500px;
+    background: bisque;
+    margin: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: dimgrey;
+}
+
+.post_button {
+    width: 90%;
+    background: coral;
+    border-radius: 10px;
+    margin: 5px;
+}
