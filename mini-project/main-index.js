@@ -30,10 +30,5 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
                 location.href = `./user-details.html`
         }
 
-        // let a = document.createElement('a');
-        // a.href = `./user-details.html?id=${user.id}`;
-        // a.innerText = 'More information';
-        // a.classList.add('a');
-        // btn.appendChild(a);
 }));
 
