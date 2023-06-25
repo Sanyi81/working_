@@ -60,7 +60,7 @@ postsBtn.onclick = (e) => {
             postDiv.appendChild(postBtn);
 
             let a = document.createElement('a');
-            a.href = `./post.html`;
+            a.href = `./post.html?id=${user.id}`;
             a.innerText = 'Post of current user';
             postBtn.appendChild(a);
         }
